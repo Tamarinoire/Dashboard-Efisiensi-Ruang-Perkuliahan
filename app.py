@@ -32,7 +32,7 @@ st.set_page_config(page_title="Dashboard Efisiensi Ruang Perkuliahan", page_icon
 
 # Header (no emoji in title)
 st.markdown('<h1><center>Dashboard Efisiensi Ruang Perkuliahan</center></h1>', unsafe_allow_html=True)
-st.markdown('<h1><center>Visualisasi hasil klasterisasi penggunaan ruang perkuliahan</center></h1>', unsafe_allow_html=True)
+st.markdown('<h1><center>Visualisasi Hasil Klasifikasi Penggunaan Ruang Perkuliahan</center></h1>', unsafe_allow_html=True)
 st.markdown("---")
 
 # Load data with fallback sample
