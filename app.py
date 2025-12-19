@@ -4,6 +4,7 @@ import plotly.express as px
 st.set_page_config(page_title="Dashboard Efisiensi Ruang Perkuliahan", page_icon="🏫", layout="wide")
 # Styling: light theme (eye-friendly), card container, professional font
 st.markdown(
+    
     """
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
