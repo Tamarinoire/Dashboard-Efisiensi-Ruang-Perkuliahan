@@ -3,32 +3,32 @@ import pandas as pd
 import plotly.express as px
 st.set_page_config(page_title="Dashboard Efisiensi Ruang Perkuliahan", page_icon="🏫", layout="wide")
 # Styling: light theme (eye-friendly), card container, professional font
-st.markdown(
+# st.markdown(
 
-    """
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-      .appview-container .main .block-container { max-width: 1200px; padding: 34px 48px; margin: 0 auto; font-family: 'Inter', Arial, sans-serif; }
-      .stApp { background: #ffffff; color: #0f172a; }
-      .card { background: #f8fafc; border-radius: 12px; padding: 18px; box-shadow: 0 6px 18px rgba(0,0,0,0.1); color: #0f172a; }
-      .dashboard-title { text-align:center; font-size:34px; font-weight:700; color:#0f172a; margin-bottom:6px; }
-      .dashboard-sub { text-align:center; color:#64748b; font-size:14px; margin-top:0; margin-bottom:18px; }
-      .stMetricValue, .stMetricValue > div { font-size:26px !important; font-weight:700; color:#0f172a !important; }
-      .stMetricLabel { font-size:13px !important; color:#64748b !important; }
-      /* Improve plotly container look */
-      .plotly-graph-div { background: transparent !important; }
-      /* Inputs */
-      .stSelectbox, .stTextInput, .stButton { font-family: 'Inter', Arial, sans-serif; color: #0f172a; }
-      .stSelectbox div[data-baseweb="select"] { background-color: #f8fafc !important; color: #0f172a !important; }
-      .stTextInput input { background-color: #f8fafc !important; color: #0f172a !important; }
-      .stButton button { background-color: #3b82f6 !important; color: #ffffff !important; }
-      /* Ensure all text is visible */
-      .stSubheader h3, .stMarkdown p, .stText, .stCaption, .stWarning, .stInfo, .stError { color: #0f172a !important; }
-      .stTable th, .stTable td { color: #0f172a !important; background-color: #f8fafc !important; }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+#     """
+#     <style>
+#       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+#       .appview-container .main .block-container { max-width: 1200px; padding: 34px 48px; margin: 0 auto; font-family: 'Inter', Arial, sans-serif; }
+#       .stApp { background: #ffffff; color: #0f172a; }
+#       .card { background: #f8fafc; border-radius: 12px; padding: 18px; box-shadow: 0 6px 18px rgba(0,0,0,0.1); color: #0f172a; }
+#       .dashboard-title { text-align:center; font-size:34px; font-weight:700; color:#0f172a; margin-bottom:6px; }
+#       .dashboard-sub { text-align:center; color:#64748b; font-size:14px; margin-top:0; margin-bottom:18px; }
+#       .stMetricValue, .stMetricValue > div { font-size:26px !important; font-weight:700; color:#0f172a !important; }
+#       .stMetricLabel { font-size:13px !important; color:#64748b !important; }
+#       /* Improve plotly container look */
+#       .plotly-graph-div { background: transparent !important; }
+#       /* Inputs */
+#       .stSelectbox, .stTextInput, .stButton { font-family: 'Inter', Arial, sans-serif; color: #0f172a; }
+#       .stSelectbox div[data-baseweb="select"] { background-color: #f8fafc !important; color: #0f172a !important; }
+#       .stTextInput input { background-color: #f8fafc !important; color: #0f172a !important; }
+#       .stButton button { background-color: #3b82f6 !important; color: #ffffff !important; }
+#       /* Ensure all text is visible */
+#       .stSubheader h3, .stMarkdown p, .stText, .stCaption, .stWarning, .stInfo, .stError { color: #0f172a !important; }
+#       .stTable th, .stTable td { color: #0f172a !important; background-color: #f8fafc !important; }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
 
 # Header (no emoji in title)
 st.markdown('<div class="dashboard-title">Dashboard Efisiensi Ruang Perkuliahan</div>', unsafe_allow_html=True)
