@@ -31,8 +31,8 @@ st.set_page_config(page_title="Dashboard Efisiensi Ruang Perkuliahan", page_icon
 # )
 
 # Header (no emoji in title)
-st.markdown('<div class="dashboard-title">Dashboard Efisiensi Ruang Perkuliahan</div>', unsafe_allow_html=True)
-st.markdown('<div class="dashboard-sub">Visualisasi hasil klasterisasi penggunaan ruang perkuliahan</div>', unsafe_allow_html=True)
+st.markdown('<h1><center>Dashboard Efisiensi Ruang Perkuliahan</center></h1>', unsafe_allow_html=True)
+st.markdown('<h1><center>Visualisasi hasil klasterisasi penggunaan ruang perkuliahan</center></h1>', unsafe_allow_html=True)
 st.markdown("---")
 
 # Load data with fallback sample
